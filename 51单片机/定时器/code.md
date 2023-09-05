@@ -1,9 +1,10 @@
 ![](定时器.png)
+
 定时器：51单片机的内部资源，电路连接和运转均在单片机内部完成。
 作用：
+
 1. 用于计时系统，实现软件计时，或使程序每隔一固定时间完成一项操作
 2. 替代长时间的Delay，提高CPU的运行效率和处理速度。
-   
 STC89C52定时器资源：
     个数：3个（T0，T1，T2），T0，T1与传统51单片机兼容，T2是此型号单片机增加的资源
 T0, T1的四种工作模式：
@@ -27,5 +28,3 @@ STC89C52系列单片机提供了8个中断请求源：外部中断0、定时器0
 |void|Timer2_Routine(void)|interrupt 5|
 |void|Int2_Routine(void)|interrupt 6|
 |void|Int3_Routine(void)|interrupt 7|
-
-    
